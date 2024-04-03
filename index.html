@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inicio de Sesión</title>
+</head>
+<body>
+    <h2>Inicio de Sesión</h2>
+    <form action="procesar_formulario.php" method="post">
+        <p>Nombre:</p>
+        <input type="text" name="nombre" placeholder="Ingrese un nombre..." required>
+        <p>Edad:</p>
+        <input type="number" name="edad" placeholder="Ingrese su edad..." required>
+        <p>Correo:</p>
+        <input type="email" name="correo" placeholder="Ingrese su correo..." required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
